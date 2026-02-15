@@ -152,7 +152,7 @@ class DisplayHelp:
         self.help_frame.grid()
 
         self.help_heading_label = Label(self.help_frame,
-                                        text="Help /Info",
+                                        text="Help / Info",
                                         font=("Arial", 14, "bold"))
         self.help_heading_label.grid(row=0)
 
@@ -203,4 +203,5 @@ if __name__ == "__main__":
     root = Tk()
     root.title("Temperature Converter")
     Converter()
+
     root.mainloop()
